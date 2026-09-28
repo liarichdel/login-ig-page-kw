@@ -410,14 +410,12 @@ a {
   z-index: 1;
 }
 
-/* Saat select di-hover, ubah warna label & arrow */
 .language-selector-wrapper:hover .language-label,
 .language-selector-wrapper:hover .language-arrow path {
   color: #262626;
   stroke: #262626;
 }
 
-/* Dropdown options (native, mengikuti style browser) */
 .language-select option {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 13px;
@@ -431,7 +429,6 @@ a {
   color: #ffffff;
 }
 
-/* Copyright text */
 .copyright {
   color: #8e8e8e;
   font-size: 12px;
